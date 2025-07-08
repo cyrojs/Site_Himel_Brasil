@@ -223,7 +223,7 @@ header nav ul li:hover::after{
     flex-direction: column; color:#db2c38;
     font-size: 3rem;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 
     
 }
