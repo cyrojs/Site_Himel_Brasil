@@ -254,7 +254,7 @@ header nav ul li:hover::after{
 
 .container_2-img img{
 
-     width: 100%;
+     width: 95%;
      height: 90%;
 }
 
@@ -269,6 +269,7 @@ header nav ul li:hover::after{
     letter-spacing: 2px;
     margin-bottom: 10px;
     padding-left: 35rem;
+    padding-right: 2rem;
     padding-top: 8rem;
     opacity: 1;
     color: #db2c38;
