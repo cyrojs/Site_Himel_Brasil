@@ -19,7 +19,7 @@ body {
 
     overflow-x: hidden;
     font-size: 2.5rem;
-    margin-top: 5.4%;
+   
 }
 
 header {
@@ -67,24 +67,18 @@ header section nav li a:hover {
     padding-bottom: 0.1rem;
 }
 
-.home-container {
-    height: 80vh;
-    width: 100vw;
-    display: flex;
-    position: relative;
-    
 
-}
 
 .home-container img {
    
-   padding-bottom: 5%;
+  height: 100vh;
+/* padding-bottom: 5%;
    padding-top: 5%; 
    padding-left: 10%;
    display: block;
    position: relative;
 /* Borda quadrada sobre a imagem */
-.img-border {
+/*.img-border {
     position: absolute;
     top: 10%;
     left: 15%;
@@ -95,27 +89,138 @@ header section nav li a:hover {
     pointer-events: none;
     box-sizing: border-box;
     z-index: 2;
-}
+}*/
 }
 
-.product-content h2 {
-    color: #000;
-    font-size: 4rem;
-    padding-top: 8%;
+.product-container{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 100vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+.product-one img {
+    padding-top: 1rem;
+    align-content: center;
+    align-items: center;
+}
+
+.product-one h2 {
+    font-size: 3rem;
+    color: #000000;
+    font-weight: 600;
     padding-left: 35%;
+    margin-bottom: 1rem;
+
 }
 
-.product-content p {
-    color: #000;
-    font-size: 2.5rem;
-    padding-top: 2%;
-    padding-left: 20%;
-    padding-right: 10%;
+.product-one p {
+
+    font-size: 1.5rem;
     line-height: 3rem;
-    margin-bottom: 3.5%;
+    align-content: center;
+    
 }
 
-.btn{
+.product-one a{
+    background-color: #db2c38;
+    color: #fff;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 1rem;
+   
+}
+
+.product-one a:hover {
+    background-color: #b71c1c;
+}
+
+
+.product-two img {
+    
+    align-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.product-two h2 {
+    font-size: 3rem;
+    color: #000000;
+    font-weight: 600;
+    padding-left: 35%;
+    margin-bottom: 1rem;
+
+}
+
+.product-two p {
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    align-content: center;
+    padding-left: 2rem;
+}
+
+.product-two a{
+    background-color: #db2c38;
+    color: #fff;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 1rem;
+   
+}
+
+.product-two a:hover {
+    background-color: #b71c1c;
+}
+
+
+.product-tree img {
+    
+    align-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-right: 9rem;
+}
+
+.product-tree h2 {
+    font-size: 3rem;
+    color: #000000;
+    font-weight: 600;
+    padding-left: 35%;
+    margin-bottom: 1rem;
+
+}
+
+.product-tree p {
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    align-content: center;
+    padding-left: 6rem;
+}
+
+.product-tree a{
+    margin-top: 1rem;
     background-color: #db2c38;
     color: #fff;
     border: none;
@@ -132,9 +237,10 @@ header section nav li a:hover {
    
 }
 
-.btn:hover {
+.product-tree a:hover {
     background-color: #b71c1c;
 }
+
 
 footer {
     background: #101820;

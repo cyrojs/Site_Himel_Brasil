@@ -64,64 +64,107 @@ header section nav li a:hover {
     padding-bottom: 0.1rem;
 }
 
-.home-container {
-    background: url("../img/banner_1.png");
+.home-container img {
+    margin-top: 3rem;
+    /*background: url("../img/BANNER_HOME_3.png");*/
     height: 100vh;
+    width: 100vw;
     background-size: cover;
+}
+
+.content h2 {
+    margin-top: 2%;
+    padding-left: 20%;
+    margin-bottom: 3%;
+    font-size: 4.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-bottom: 0.2rem solid rgb(0, 0, 0);
+    width: fit-content;
+}
+
+.content p {
+
+    padding-left: 3%;
+    padding-right: 2%;
+    font-size: 2rem;
+    line-height: 3rem;
+
 }
 
 .product-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem;
-    height: 100vh;
+    gap: 10rem;
+   
+}
 
+.product-one{
+   /*
+    border: #db2c38;    
+    border-color: #db2c38; 
+    border-width: 5px;    
+    border-style: outset;                               
+    */    
+    margin-left: 15rem;
+   
 }
 
 .product-one img {
+    
+    padding-left: 12rem;
     padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 20rem;
-
+    align-content: center;
+    align-items: center;
 }
 
 .product-one h2 {
-    padding-left: 25rem;
-    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: #db2c38;
+    font-weight: 600;
+    padding-left: 35%;
+    margin-bottom: 1rem;
 
 }
 
 .product-one p {
 
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 3rem;
     align-content: center;
-    padding-right: 5rem;
-    padding-left: 5rem;
+   
+}
+
+.product-two{
+    margin-right: 15rem;
+   
 }
 
 .product-two img {
-    padding-left: 11rem;
-    margin-bottom: 1rem;
-
+    
+    padding-left: 12rem;
+    padding-top: 2rem;
+    align-content: center;
+     align-items: center;
 }
 
 .product-two h2 {
-    margin-bottom: 2rem;
-    padding-left: 20rem;
+    font-size: 3rem;
+    color: #db2c38;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-left: 30%;
 
 }
 
 .product-two p {
 
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 3rem;
     align-content: center;
     padding-right: 5rem;
-    padding-left: 5rem;
+    padding-left: 3rem;
 }
-
-
 
 /*
 .logo {
@@ -391,13 +434,12 @@ header nav ul li:hover::after {
 
 }*/
 
-
 footer {
     background: #101820;
     color: white;
     text-align: center;
     padding: 20px;
     font-size: 2rem;
-    margin-top: 3%;
-
+    margin-top: 2rem;
+    
 }

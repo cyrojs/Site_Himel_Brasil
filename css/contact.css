@@ -19,7 +19,7 @@ body {
 
     overflow-x: hidden;
     font-size: 2.5rem;
-    margin-top: 5.4%;
+   
 }
 
 header {
@@ -31,8 +31,6 @@ header {
     z-index: 99;
     border-bottom: 1rem;
     padding-top: 0.5rem;
-    margin-bottom: 50%;
-
 
 }
 
@@ -67,14 +65,11 @@ header section nav li a:hover {
     padding-bottom: 0.1rem;
 }
 
-.home-container {
-    position: relative;
-}
 
 .home-container img {
-
+    height: 100vh;  
+    width: 100vw;
     margin-bottom: 5%;
-    position: relative;
     z-index: 9;
 
 }
@@ -90,15 +85,11 @@ header section nav li a:hover {
     font-size: 3.7rem;
 }
 
-.banner {
-    display: flex;
-    margin-bottom: 5%;
-}
 
 .content h2 {
-    padding-left: 20%;
+    padding-left: 10rem;
     margin-bottom: 5%;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 800;
     letter-spacing: 2px;
     border-bottom: 0.2rem solid rgb(0, 0, 0);
@@ -115,14 +106,11 @@ header section nav li a:hover {
 
 }
 
-.banner img {
-    padding-right: 3%;
-}
-
 
 .banner_bottom {
+    margin-top: 10rem;
     background-color: #db2c38;
-    width: 100%;
+    
     min-height: 400px;
     /* altura mínima */
 
@@ -132,7 +120,7 @@ header section nav li a:hover {
     color: #ffff;
     font-size: 3rem;
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 1rem;
     border-bottom: 0.1rem solid #ffff;
     width: 40%;
