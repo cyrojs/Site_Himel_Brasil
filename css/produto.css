@@ -123,7 +123,7 @@ header section nav li a:hover {
     font-size: 1.5rem;
     line-height: 3rem;
     align-content: center;
-    
+    padding-left: 2rem;
 }
 
 .product-one a{
