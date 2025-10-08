@@ -4,9 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="defalt-src 'self';
-                script-src 'self';
-                img-src 'self'">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -33,11 +30,11 @@
     <div class="product-container">
         <div class="product-gallery">
             <div class="gallery-thumbnails">
-                <img src="./img/disjuntor_2_tb1.png" alt="Disjuntor 1P">
-                <img src="./img/disjuntor_2_tb2.png" alt="Disjuntor 1P">
-                <img src="./img/disjuntor_1_tb3.png" alt="Disjuntor 1P">
+                <img id="thumb-1" src="./img/disjuntor_2_tb1.png" alt="Disjuntor 2P">
+                <img id="thumb-2" src="./img/disjuntor_2_tb2.png" alt="Disjuntor 2P">
+                <img id="thumb-3" src="./img/disjuntor_1_tb3.png" alt="Disjuntor 2P">
             </div>
-            <img src="./img/disjuntor_2_tb0.png" alt="Disjuntor 1P">
+            <img id="dynamic-image" src="./img/disjuntor_2_tb0.png" alt="Disjuntor 2P">
         </div>
 
         <div class="product-info">
@@ -55,3 +52,8 @@
             </div>
         </div>
     </div>
+
+</body>
+<script src="./js/minidisjuntor_2p.js"></script>
+
+</html>
