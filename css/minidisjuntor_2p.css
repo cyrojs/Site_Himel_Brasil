@@ -73,12 +73,13 @@ header section nav li a:hover {
     margin-top: 10rem;
     padding-left: 4rem;
     padding-right: 4rem;
-
+   
 }
 
 .product-gallery {
     display: flex;
     gap: 5rem;
+    margin-right: 3rem;
 
 }
 
