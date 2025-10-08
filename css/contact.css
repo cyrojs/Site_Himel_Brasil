@@ -19,7 +19,7 @@ body {
 
     overflow-x: hidden;
     font-size: 2.5rem;
-   
+
 }
 
 header {
@@ -67,7 +67,7 @@ header section nav li a:hover {
 
 
 .home-container img {
-    height: 100vh;  
+    height: 100vh;
     width: 100vw;
     margin-bottom: 5%;
     z-index: 9;
@@ -110,7 +110,7 @@ header section nav li a:hover {
 .banner_bottom {
     margin-top: 10rem;
     background-color: #db2c38;
-    
+
     min-height: 400px;
     /* altura mínima */
 

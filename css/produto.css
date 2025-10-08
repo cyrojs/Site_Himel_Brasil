@@ -19,7 +19,7 @@ body {
 
     overflow-x: hidden;
     font-size: 2.5rem;
-   
+
 }
 
 header {
@@ -70,29 +70,12 @@ header section nav li a:hover {
 
 
 .home-container img {
-   
-  height: 100vh;
-/* padding-bottom: 5%;
-   padding-top: 5%; 
-   padding-left: 10%;
-   display: block;
-   position: relative;
-/* Borda quadrada sobre a imagem */
-/*.img-border {
-    position: absolute;
-    top: 10%;
-    left: 15%;
-    width: 60%;
-    height: 60%;
-    border: 4px solid #0a0a0a;
-    border-radius: 0;
-    pointer-events: none;
-    box-sizing: border-box;
-    z-index: 2;
-}*/
+    height: 100vh;
+    width: 100vw;
+
 }
 
-.product-container{
+.product-container {
 
     display: flex;
     justify-content: space-between;
@@ -100,7 +83,7 @@ header section nav li a:hover {
     height: 100vh;
     margin-left: 2rem;
     margin-right: 2rem;
-    
+
 }
 
 .product-one img {
@@ -126,7 +109,7 @@ header section nav li a:hover {
     padding-left: 2rem;
 }
 
-.product-one a{
+.product-one a {
     background-color: #db2c38;
     color: #fff;
     border: none;
@@ -140,7 +123,7 @@ header section nav li a:hover {
     display: inline-block;
     margin-left: 35%;
     margin-top: 1rem;
-   
+
 }
 
 .product-one a:hover {
@@ -149,7 +132,7 @@ header section nav li a:hover {
 
 
 .product-two img {
-    
+
     align-content: center;
     align-items: center;
     padding-top: 1rem;
@@ -172,7 +155,7 @@ header section nav li a:hover {
     padding-left: 2rem;
 }
 
-.product-two a{
+.product-two a {
     background-color: #db2c38;
     color: #fff;
     border: none;
@@ -186,7 +169,7 @@ header section nav li a:hover {
     display: inline-block;
     margin-left: 35%;
     margin-top: 1rem;
-   
+
 }
 
 .product-two a:hover {
@@ -195,7 +178,7 @@ header section nav li a:hover {
 
 
 .product-tree img {
-    
+
     align-content: center;
     align-items: center;
     padding-top: 1rem;
@@ -219,7 +202,7 @@ header section nav li a:hover {
     padding-left: 6rem;
 }
 
-.product-tree a{
+.product-tree a {
     margin-top: 1rem;
     background-color: #db2c38;
     color: #fff;
@@ -233,8 +216,8 @@ header section nav li a:hover {
     text-decoration: none;
     display: inline-block;
     margin-left: 35%;
-    
-   
+
+
 }
 
 .product-tree a:hover {

@@ -68,13 +68,13 @@ header section nav li a:hover {
     height: 100vh;
     width: 100vw;
     margin-bottom: 5%;
-   
+
 }
 
 .banner {
     display: flex;
     margin-bottom: 5%;
-    padding-right:2% ;
+    padding-right: 2%;
 }
 
 .content h2 {
@@ -83,7 +83,6 @@ header section nav li a:hover {
     font-size: 2.2rem;
     font-weight: 600;
     color: #db2c38
-       
 }
 
 .content p {
