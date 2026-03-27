@@ -1,0 +1,145 @@
+:root {
+    font-size: 10px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s linear;
+    /*box-sizing: border-box;*/
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+
+    overflow-x: hidden;
+    font-size: 2.5rem;
+    margin-top: 5.4%;
+}
+
+header {
+    background: #db2c38;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: 1rem;
+    padding-top: 0.5rem;
+    margin-bottom: 50%;
+
+
+}
+
+header section {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 50rem;
+    margin-left: 100px;
+}
+
+header section nav {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+}
+
+header section nav li a {
+    color: white;
+    display: flex;
+    font-weight: 600;
+    font-size: 2.2rem;
+    cursor: pointer;
+
+}
+
+header section nav li a:hover {
+    font-size: 2.3rem;
+    border-bottom: 0.2rem solid white;
+    padding-bottom: 0.1rem;
+}
+
+.home-container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    
+
+}
+
+.home-container img {
+   
+   padding-bottom: 5%;
+   padding-top: 5%; 
+   padding-left: 10%;
+   display: block;
+   position: relative;
+/* Borda quadrada sobre a imagem */
+.img-border {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 60%;
+    height: 60%;
+    border: 4px solid #0a0a0a;
+    border-radius: 0;
+    pointer-events: none;
+    box-sizing: border-box;
+    z-index: 2;
+}
+}
+
+.product-content h2 {
+    color: #000;
+    font-size: 4rem;
+    padding-top: 8%;
+    padding-left: 35%;
+}
+
+.product-content p {
+    color: #000;
+    font-size: 2.5rem;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 10%;
+    line-height: 3rem;
+    margin-bottom: 3.5%;
+}
+
+.btn{
+    background-color: #db2c38;
+    color: #fff;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 35%;
+    
+   
+}
+
+.btn:hover {
+    background-color: #b71c1c;
+}
+
+footer {
+    background: #101820;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+}
